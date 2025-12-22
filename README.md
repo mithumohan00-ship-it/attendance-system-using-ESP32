@@ -90,7 +90,7 @@ Feel free to adjust pins in `config.h` if your board layout differs.
 ### Clone the Repo
 
 ```bash
-git clone https://github.com/your‑user/attendance-system-using-ESP32.git
+git clone https://github.com/ajayLegion/attendance-system-using-ESP32.git
 cd attendance-system-using-ESP32
 ```
 
@@ -151,14 +151,14 @@ cd attendance-system-using-ESP32
     "-OTomr21HhJ_FJCgivMq": {
       "first_mark": true,
       "late": true,
-      "name": "Ajay R24EM004",
+      "name": "vijay R24EM89",
       "time": "09:58",
       "uid": "B1F4473C"
     },
     "-OTomteaQ2M_wTHFr1yL": {
       "first_mark": false,
       "late": true,
-      "name": "Ajay R24EM004",
+      "name": "vijay R24EM089",
       "time": "09:58",
       "uid": "B1F4473C"
     }
