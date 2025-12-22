@@ -15,8 +15,8 @@
 #include <time.h>
 
 /* ▒▒▒ Wi-Fi ▒▒▒ */
-const char *WIFI_SSID     = "Legion";
-const char *WIFI_PASSWORD = "88888888";
+const char *WIFI_SSID     = "";
+const char *WIFI_PASSWORD = "";
 
 /* ▒▒▒ Firebase ▒▒▒ */
 const char *FB_HOST   = ".firebaseio.com";
@@ -38,7 +38,7 @@ inline void beep(uint16_t ms) {
 }
 
 /* ▒▒▒ Admin UID ▒▒▒ */
-const char *ADMIN_UID = "";
+const char *ADMIN_UID = "1CDD8A3F";
 
 /* ▒▒▒ Class schedule ▒▒▒ */
 const int GRACE_MIN = 5;
@@ -52,6 +52,10 @@ const Period periods[] = {
 struct Student { const char *uid; const char *name; bool present; };
 Student roster[60] = {
   {"71B54A3C","A S Pradeep",false},
+  {"53A7BFD9","A S Pradeep",false},
+  {"438217E2","A S Pradeep",false},
+  {"EDC3963F","A S Pradeep",false},
+  
   // add more students
 };
 
@@ -90,9 +94,9 @@ void setup() {
   while (time(nullptr) < 1609459200) delay(200);
 
   lcd.clear();
-  lcd.print("EEE 2A Attend");
+  lcd.print("CSE Attend");
   lcd.setCursor(0,1);
-  lcd.print("Scan Reva ID");
+  lcd.print("Scan SNU ID");
 }
 
 /* ───────── LOOP ───────── */
