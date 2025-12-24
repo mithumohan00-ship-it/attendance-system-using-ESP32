@@ -1,4 +1,4 @@
-# ESP32 RFID Attendance System with 20×4 I²C LCD & Firebase
+# ESP32 RFID Attendance System with 16×2 I²C LCD & Firebase
 
 > **Track attendance in real time—no PC required!**
 > An ESP32 reads RFID tags via an MFRC‑522 reader, shows feedback on a 20×4 I²C LCD, and logs every scan to Firebase Realtime Database (or Firestore) over Wi‑Fi.
